@@ -48,27 +48,26 @@ h3{
     position: absolute;
 }
 .top-pane{
-    margin-top:25px;
+    margin-top:20px;
     display: flex;
     width:100%;
     height: 10vh;
     position: relative;
-    overflow:auto;
+    overflow:hidden;
+    scroll-behavior: ;
 }
 .three-links{
-    margin-top: .5em;
+    margin-top: .25em;
     margin-left: auto;
     margin-right: 30px;
 }
-.three-links>span{
-    
-}
+
 .three-links>a{
     text-decoration: none;
     color: inherit;
     color:#53bc9d;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin: 10px;
     font-size: 40px;
 }
 .profile-pic{
@@ -79,8 +78,8 @@ h3{
     float: left;
 }
 .profile-pic>img{
-    width: 105px;
-    height: 105px;
+    width: 95px;
+    height: 95px;
     border-radius: 50%;
     background-color: rgb(209, 247, 234);
    margin-bottom: 20px;
@@ -133,7 +132,7 @@ h3{
 }
 .what-can-i-do .can-do-section1{
     display: flex;
-    flex-grow: 2;
+    
 }
 .what-can-i-do .can-do-section2{
     display: flex;
